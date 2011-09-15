@@ -1,0 +1,146 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+    background: #fff;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    font-size:12px;
+    padding:0;
+}
+html, .wp-dialog{
+    background:#fff !important;
+    background-color:#fff;
+}
+
+#login{
+    width:364px;
+    margin: 50px auto 0;
+    text-align: left;
+}
+
+form {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    box-shadow:inset 2px 1px 0px #fff;
+    font-weight: normal;
+    margin-left: 8px;
+    padding: 30px 17px 33px;
+}
+
+.formbg{
+    background: url("../images/chromeless_bg_b.png") repeat-x scroll center bottom transparent;
+    border: 1px solid #CFDDE5;
+}
+
+h1 a {
+    background: url("../images/mt_logo.gif") no-repeat left top;
+    height: 29px;
+    overflow: hidden;
+    padding-bottom: 15px;
+    text-indent: -9999px;
+    width: 326px;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: normal;
+    margin:0 0 11px;
+}
+
+label{
+    color:#000;
+    font-size:12px;
+    font-weight:bold;
+}
+
+input[type=text], input[type=password] {
+    width: 313px;
+    color:#000;
+    margin:3px 0 5px;
+    padding:3px;
+    border-top:1px solid #969696;
+    border-right:1px solid #cdcdcd;
+    border-left:1px solid #cdcdcd;
+    border-bottom:1px solid #e7e7e7;
+    box-shadow:inset 0 0 1px #B8B8B8;
+}
+
+textarea, input[type="text"], input[type="password"], input[type="file"], input[type="button"], input[type="submit"], input[type="reset"], select {
+
+}
+input {
+    color: #555555;
+}
+
+form .forgetmenot label {
+    font-size: 12px;
+    line-height: 19px;
+    font-weight:normal;
+    margin-right:5px;
+}
+
+#nav {
+    margin: 5px 0 0;
+    clear:left;
+    padding: 0;
+    text-shadow: none;
+    padding:10px 0 0;
+}
+
+.login #nav a{
+    text-decoration:none;
+}
+
+.login #nav a:hover{
+    color:#A2AD00 !important;
+}
+
+#backtoblog{
+    display:none;
+}
+
+.button-primary{
+    border-radius:0;
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: url("../images/buttons/button.gif") no-repeat scroll 0 center #333333;
+    border-color: #D4D4D4 -moz-use-text-color -moz-use-text-color;
+    border-right: medium none;
+    border-style: solid none none;
+    border-width: 1px medium medium;
+    color: #EEEEEE;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.3;
+    padding: 6px 10px 3px;
+    text-decoration: none;
+    margin-top:31px;
+    color:#F5F5F5 !important;
+
+}
+
+.message{
+    display:none;
+}
