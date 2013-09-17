@@ -44,14 +44,18 @@ form {
     padding: 30px 17px 33px;
 }
 
-.formbg{
-    background: url("../images/chromeless_bg_b.png") repeat-x scroll center bottom transparent;
+#loginform, .formbg{
+    background: url("../images/chromeless_bg_b.png") repeat-x scroll center bottom transparent !important;
+    background-color:#fff !important;
     border: 1px solid #CFDDE5;
+    padding-bottom:30px;
 }
 
 h1 a {
-    background: url("../images/mt_logo.gif") no-repeat left top;
-    height: 29px;
+    background: url("../images/mt_logo.gif") no-repeat left top !important;
+    background-image:url("../images/mt_logo.gif") !important;
+    background-size: auto auto !important;
+    height: 29px !important;
     overflow: hidden;
     padding-bottom: 15px;
     text-indent: -9999px;
@@ -61,7 +65,7 @@ h1 a {
 h2{
     font-size: 24px;
     font-weight: normal;
-    margin:0 0 11px;
+    margin:0 0 20px !important;
 }
 
 label{
@@ -97,11 +101,10 @@ form .forgetmenot label {
 }
 
 #nav {
-    margin: 5px 0 0;
+    margin: 5px 0 0!important;
     clear:left;
-    padding: 0;
     text-shadow: none;
-    padding:10px 0 0;
+    padding:10px 0 0!important;
 }
 
 .login #nav a{
@@ -138,6 +141,7 @@ form .forgetmenot label {
     text-decoration: none;
     margin-top:31px;
     color:#F5F5F5 !important;
+    border-radius:0 !important;
 
 }
 
